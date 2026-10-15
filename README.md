@@ -52,6 +52,11 @@ public interface MotorcycleRepository extends JpaRepository<Motorcycle, Long> {
 | `motorcycles` | `motorcycle_technologies` | 1 : 0..N | Внешний ключ `motorcycle_id` в таблице связи |
 | `technologies` | `motorcycle_technologies` | 1 : 0..N | Внешний ключ `technology_id` в таблице связи |
 
+### 4.2. ER-диаграммы
+
+- [ER-диаграмма в нотации Чена](Чена.png)
+- [ER-диаграмма в нотации «воронья лапка» (Crow's Foot)](crown.png)
+
 
 
 ```java
